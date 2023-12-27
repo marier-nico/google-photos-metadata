@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "manifest_version": 3,
+  "name": "Google Photos Metadata",
+  "description": "Show additional image metadata in google photos",
+  "content_scripts": [
+    {
+      "js": ["assets/main.js"],
+      "matches": ["https://photos.google.com/*"]
+    }
+  ]
+}
